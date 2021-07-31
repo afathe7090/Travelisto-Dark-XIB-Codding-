@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="215" id="KGk-i7-Jjw" customClass="ImageTripCell" customModule="Travelisto_Dark" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="215"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="372" height="215"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-36" translatesAutoresizingMaskIntoConstraints="NO" id="fLy-be-l6t" customClass="viewDesign" customModule="Travelisto_Dark" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="215"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="J4P-bA-pTl">
+                        <rect key="frame" x="99.5" y="65.5" width="173" height="84"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trip to Rome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFw-a0-AJy">
+                                <rect key="frame" x="0.0" y="0.0" width="173" height="33.5"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a journey into the past" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cq9-sw-tgq">
+                                <rect key="frame" x="2" y="37.5" width="169" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="0HM-0D-13g">
+                                <rect key="frame" x="47.5" y="62" width="78" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OyN-2W-X5L">
+                                        <rect key="frame" x="0.0" y="0.0" width="14" height="22"/>
+                                        <state key="normal" image="Image-37"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJh-T3-y8P">
+                                        <rect key="frame" x="16" y="0.0" width="14" height="22"/>
+                                        <state key="normal" image="Image-37"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0b-Oj-Tvg">
+                                        <rect key="frame" x="32" y="0.0" width="14" height="22"/>
+                                        <state key="normal" image="Image-37"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cty-UD-2s6">
+                                        <rect key="frame" x="48" y="0.0" width="14" height="22"/>
+                                        <state key="normal" image="Image-37"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izn-a8-9CS">
+                                        <rect key="frame" x="64" y="0.0" width="14" height="22"/>
+                                        <state key="normal" image="Image-37"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNx-vQ-sqf">
+                        <rect key="frame" x="10" y="10" width="34" height="28.5"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" image="arrow.backward" catalog="system">
+                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="default">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                            </preferredSymbolConfiguration>
+                        </state>
+                        <connections>
+                            <action selector="backButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="chT-2X-XtW"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="tNx-vQ-sqf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="2dE-ya-FD9"/>
+                    <constraint firstItem="tNx-vQ-sqf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="3pl-qF-uaD"/>
+                    <constraint firstAttribute="trailing" secondItem="fLy-be-l6t" secondAttribute="trailing" id="BCD-pe-9gI"/>
+                    <constraint firstItem="fLy-be-l6t" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Sru-l4-ZVv"/>
+                    <constraint firstItem="fLy-be-l6t" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="U10-Aa-io9"/>
+                    <constraint firstItem="J4P-bA-pTl" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="rdp-QE-QB9"/>
+                    <constraint firstItem="J4P-bA-pTl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="yrS-n9-oQo"/>
+                    <constraint firstAttribute="bottom" secondItem="fLy-be-l6t" secondAttribute="bottom" id="zpA-S1-4Ar"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backButtonPressed" destination="tNx-vQ-sqf" id="fSv-0s-dF7"/>
+            </connections>
+            <point key="canvasLocation" x="175.36231884057972" y="181.80803571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Image-36" width="375" height="200"/>
+        <image name="Image-37" width="14" height="14"/>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
+    </resources>
+</document>

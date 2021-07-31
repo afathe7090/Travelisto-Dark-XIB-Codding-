@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="palceingCell" customModule="Travelisto_Dark" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="121" height="161"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="121" height="161"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Loh-MB-AXe">
+                        <rect key="frame" x="0.0" y="0.0" width="121" height="156"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-13" translatesAutoresizingMaskIntoConstraints="NO" id="w4V-Mk-cxG" customClass="viewDesign" customModule="Travelisto_Dark" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="121" height="156"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="w4V-Mk-cxG" secondAttribute="trailing" id="1F0-1Q-gAN"/>
+                            <constraint firstAttribute="bottom" secondItem="w4V-Mk-cxG" secondAttribute="bottom" id="TYR-MT-p2R"/>
+                            <constraint firstItem="w4V-Mk-cxG" firstAttribute="top" secondItem="Loh-MB-AXe" secondAttribute="top" id="Txf-hl-8PX"/>
+                            <constraint firstItem="w4V-Mk-cxG" firstAttribute="leading" secondItem="Loh-MB-AXe" secondAttribute="leading" id="jAy-LA-8lo"/>
+                            <constraint firstItem="w4V-Mk-cxG" firstAttribute="height" secondItem="Loh-MB-AXe" secondAttribute="height" id="lNF-G9-xtd"/>
+                            <constraint firstItem="w4V-Mk-cxG" firstAttribute="width" secondItem="Loh-MB-AXe" secondAttribute="width" id="zgM-5V-lvQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Loh-MB-AXe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="2PE-ub-cl4"/>
+                <constraint firstItem="Loh-MB-AXe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ivn-0B-Acz"/>
+                <constraint firstAttribute="trailing" secondItem="Loh-MB-AXe" secondAttribute="trailing" id="kRn-vY-8eo"/>
+                <constraint firstAttribute="bottom" secondItem="Loh-MB-AXe" secondAttribute="bottom" constant="5" id="wno-iT-ar8"/>
+            </constraints>
+            <size key="customSize" width="121" height="161"/>
+            <connections>
+                <outlet property="imageView" destination="w4V-Mk-cxG" id="SjM-yf-odW"/>
+            </connections>
+            <point key="canvasLocation" x="192" y="143"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="w4V-Mk-cxG">
+            <size key="intrinsicContentSize" width="134" height="164"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Image-13" width="134" height="164"/>
+    </resources>
+</document>
